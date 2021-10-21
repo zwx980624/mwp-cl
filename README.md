@@ -22,6 +22,7 @@ This repository is the [PyTorch](http://pytorch.org/) implementation for the pap
   - [Our processed data](https://drive.google.com/file/d/1AZJrSH8AHxysdTUttH_e0xOHGFlAfPFm/view?usp=sharing)
     - Chinese dataset: Math_23K
     - English dataset: MathQA
+    - Data-processing codes are also provided in `tools/`
 
 - **Install transformer library**
 
@@ -35,7 +36,7 @@ This repository is the [PyTorch](http://pytorch.org/) implementation for the pap
 | --------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | pretrained bert | [bert-base-chinese]() | [bert-base-uncased](https://huggingface.co/bert-base-uncased) | [bert-base-multilingual-uncased](https://huggingface.co/bert-base-multilingual-uncased) |
 
-- **Change vocab_list**
+- **Emplace vocab_list**
 
   Emplace the original `vocab.txt` in pretrained bert model with our `vocab.txt` in **pretrained_models_vocab/**
 
@@ -99,4 +100,8 @@ This repository is the [PyTorch](http://pytorch.org/) implementation for the pap
 | ---------------------------------- | ------------------- | ----------------- |
 | Monolingual Setting BERT-TD w CL   | 83.2%               | 76.3%             |
 | Multilingual Setting mBERT-TD w CL | 83.9%               | 76.3%             |
+
+
+
+## Citation
 
