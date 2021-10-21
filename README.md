@@ -30,15 +30,11 @@ This repository is the [PyTorch](http://pytorch.org/) implementation for the pap
   pip install transformers
   ```
 
-- **Pretrained bert download**
+- **Download pretrained bert model and Emplace vocab_list**
 
-| data-pair       | zh-zh                 | en-en                                                        | zh-en                                                        |
-| --------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| pretrained bert | [bert-base-chinese]() | [bert-base-uncased](https://huggingface.co/bert-base-uncased) | [bert-base-multilingual-uncased](https://huggingface.co/bert-base-multilingual-uncased) |
+  - We use pretrained bert model from https://huggingface.co/
 
-- **Emplace vocab_list**
-
-  Emplace the original `vocab.txt` in pretrained bert model with our `vocab.txt` in **pretrained_models_vocab/**
+  - Add `[NUM]` to the original vocab_list of the pretrained  bert model as `vocab.txt` in **pretrained_models_vocab/** . 
 
 - **Directory structure**
 
@@ -104,4 +100,15 @@ This repository is the [PyTorch](http://pytorch.org/) implementation for the pap
 
 
 ## Citation
+
+```
+@misc{li2021seeking,
+      title={Seeking Patterns, Not just Memorizing Procedures: Contrastive Learning for Solving Math Word Problems}, 
+      author={Zhongli Li and Wenxuan Zhang and Chao Yan and Qingyu Zhou and Chao Li and Hongzhi Liu and Yunbo Cao},
+      year={2021},
+      eprint={2110.08464},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
