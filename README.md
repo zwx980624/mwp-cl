@@ -90,7 +90,7 @@ This repository is the [PyTorch](http://pytorch.org/) implementation for the pap
 
 - **Trained Model**
 
-  We also provide our [**Trained Model**]([link](https://drive.google.com/drive/folders/1gMjZXkLAMqLTU0wK9pTsbcae-WiRnhO2?usp=sharing)) after stage 2.
+  We also provide our [Trained Model]([link](https://drive.google.com/drive/folders/1gMjZXkLAMqLTU0wK9pTsbcae-WiRnhO2?usp=sharing)) after stage 2.
 
   
 
