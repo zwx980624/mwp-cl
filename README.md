@@ -92,6 +92,12 @@ This repository is the [PyTorch](http://pytorch.org/) implementation for the pap
 
   We also provide our [Trained Model](https://drive.google.com/drive/folders/1gMjZXkLAMqLTU0wK9pTsbcae-WiRnhO2?usp=sharing) after stage 2.
 
+  You can load a model by adding
+  
+  ```
+  --model_reload_path model_monolingual_en 		# as an example
+  ```
+  
   
 
 ## Results
