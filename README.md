@@ -34,7 +34,17 @@ This repository is the [PyTorch](http://pytorch.org/) implementation for the pap
 
   - We use pretrained bert model from https://huggingface.co/
 
-  - Add `[NUM]` to the original vocab_list of the pretrained  bert model as `vocab.txt` in **pretrained_models_vocab/** . 
+  - Add `[NUM]` to the original vocab_list of the pretrained  bert model as `vocab.txt` in **pretrained_models_vocab/** :
+    ```
+    [PAD]
+    [num]
+    [NUM]
+    [unused3]
+    [unused4]
+    [unused5]
+    [unused6]
+    ...
+    ```
 
 - **Directory structure**
 
